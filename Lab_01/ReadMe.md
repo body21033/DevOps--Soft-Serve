@@ -24,7 +24,7 @@
 
 ![image]()
 
-## Useful links:
+## Useful Links:
 
 1) [YouTube Channel for installing Vargrant][3]
 
