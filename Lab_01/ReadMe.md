@@ -26,7 +26,7 @@
 
 ## Useful links:
 
-1) [YouTube Channel for installing `Vargrant`][3]
+1) [YouTube Channel for installing Vargrant][3]
 
 [1]: https://www.virtualbox.org/wiki/Downloads
 [2]: https://www.vagrantup.com/Downloads
