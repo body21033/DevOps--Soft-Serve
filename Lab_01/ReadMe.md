@@ -27,6 +27,15 @@
 
 ![image](https://github.com/body21033/DevOps--Soft-Serve/blob/main/Lab_01/img/11.jpg?raw=true)
 
+3. В результате у нас запустилась виртуальна машина с образом `centos/7`.
+
+1. Теперь запустим виртуальную машину с пользовательскими настройками:
+     - vagrant box add ubuntu/focal64:
+     
+![image](https://github.com/body21033/DevOps--Soft-Serve/blob/main/Lab_01/img/3.jpg?raw=true)
+
+     - vagrant init ubuntu/focal64:
+![image]()
 3. 
 
 ## Useful Links:
