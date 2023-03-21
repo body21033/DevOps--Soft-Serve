@@ -1,4 +1,4 @@
-# HomeTask_01 - Vargrant (Installing VirtualBox)
+# HomeTask_01 - Vagrant (Installing VirtualBox)
 
 
 ## Requirements:
@@ -10,23 +10,28 @@
  
 ## Preparation:
  - First you need to download [`VirtualBox`][1];
- - Second you should to install [`Vargrant`][2] with terminal;
+ - Second you should to install [`Vagrant`][2] with terminal;
   
 ## My results:
 
 - If you want to check my servers, follow next links:
   
-1. After installing `VirtualBox`- will install `Vargrant`:
+1. After installing `VirtualBox`- will install `Vagrant`:
 
-![image](https://github.com/body21033/DevOps--Soft-Serve/blob/main/Lab_01/img/1.jpg?raw=true)
+![image](https://github.com/body21033/DevOps--Soft-Serve/blob/main/Lab_01/img/10.jpg?raw=true)
 
-2. 
+2. Запустим команды:
+     - vagrant box add centos/7 и выберем вариант 3 (VirtualBox);
+     - vagrant init centos/7;
+     - vagrant up:
 
-![image]()
+![image](https://github.com/body21033/DevOps--Soft-Serve/blob/main/Lab_01/img/11.jpg?raw=true)
+
+3. 
 
 ## Useful Links:
 
-1) [YouTube Channel for installing Vargrant][3]
+1) [YouTube Channel for installing Vagrant][3]
 
 [1]: https://www.virtualbox.org/wiki/Downloads
 [2]: https://www.vagrantup.com/Downloads
