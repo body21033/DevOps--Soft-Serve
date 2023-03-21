@@ -21,9 +21,9 @@
 ![image](https://github.com/body21033/DevOps--Soft-Serve/blob/main/Lab_01/img/10.jpg?raw=true)
 
 2. Запустим команды:
-     - vagrant box add centos/7 и выберем вариант 3 (VirtualBox);
-     - vagrant init centos/7;
-     - vagrant up:
+     - `vagrant box add centos/7` и выберем вариант 3 (VirtualBox);
+     - `vagrant init centos/7`;
+     - `vagrant up`:
 
 ![image](https://github.com/body21033/DevOps--Soft-Serve/blob/main/Lab_01/img/11.jpg?raw=true)
 
