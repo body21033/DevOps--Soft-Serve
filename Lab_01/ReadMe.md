@@ -35,8 +35,15 @@
 ![image](https://github.com/body21033/DevOps--Soft-Serve/blob/main/Lab_01/img/3.jpg?raw=true)
 
      - vagrant init ubuntu/focal64:
-![image]()
-3. 
+![image](https://github.com/body21033/DevOps--Soft-Serve/blob/main/Lab_01/img/2.jpg?raw=true)
+
+2. Следует изменить код в файле Vagrantfile на следующий:
+          
+    ## [`Vagrantfile`][4]
+   - Это можно сделать при помощи Notepad++
+ ![image](https://github.com/body21033/DevOps--Soft-Serve/blob/main/Lab_01/img/12.jpg?raw=true)  
+     
+4. 
 
 ## Useful Links:
 
@@ -45,4 +52,4 @@
 [1]: https://www.virtualbox.org/wiki/Downloads
 [2]: https://www.vagrantup.com/Downloads
 [3]: https://youtu.be/8TJYZLe7vEc
-
+[4]: https://github.com/body21033/DevOps--Soft-Serve/blob/8c3624221ed6540a9bafd0bce9532dbf9c4d429d/Lab_01/Vagrantfile
