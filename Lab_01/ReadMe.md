@@ -2,11 +2,11 @@
 
 
 ## Requirements:
- - We need to have a Linux OS;
- - Install a hypervisor (VirtualBox)
- - Install Vagrant
- - Using Vagrant create virtual machine with OS Linux Ubuntu 20.04
- - Provide your Vagrantfile and screenshot that demonstrates started VM
+ - We need to have a Windows OS with PowerShell;
+ - Install a hypervisor (`VirtualBox`);
+ - Install `Vagrant`;
+ - Using Vagrant creates virtual machine with OS Linux Ubuntu 20.04;
+ - Provide your Vagrantfile and screenshot that demonstrates started VM;
  
 ## Preparation:
  - First you need to download [`VirtualBox`][1];
@@ -28,6 +28,8 @@
 ![image](https://github.com/body21033/DevOps--Soft-Serve/blob/main/Lab_01/img/11.jpg?raw=true)
 
 3. В результате у нас запустилась виртуальна машина с образом `centos/7`.
+
+##
 
 1. Теперь запустим виртуальную машину с пользовательскими настройками:
      - vagrant box add ubuntu/focal64:
