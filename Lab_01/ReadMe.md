@@ -53,12 +53,18 @@
  
 5. Выполняем команду `vagrant ssh` и подключаемся к нашей виртуальной машине:
  ![image](https://github.com/body21033/DevOps--Soft-Serve/blob/main/Lab_01/img/5.jpg?raw=true)
+ 
+6. ### Как мы видим: виртуальная машина успешно настроена)
 
 ## Useful Links:
 
 1) [YouTube Channel for installing Vagrant][3]
+2) [Ubuntu-images][5]
+3) [Vagrant documentation][6]
 
 [1]: https://www.virtualbox.org/wiki/Downloads
 [2]: https://www.vagrantup.com/Downloads
 [3]: https://youtu.be/8TJYZLe7vEc
 [4]: https://github.com/body21033/DevOps--Soft-Serve/blob/8c3624221ed6540a9bafd0bce9532dbf9c4d429d/Lab_01/Vagrantfile
+[5]: https://app.vagrantup.com/ubuntu
+[6]: https://help.ubuntu.ru/wiki/vagrant
