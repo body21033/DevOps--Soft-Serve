@@ -37,13 +37,20 @@
      - vagrant init ubuntu/focal64:
 ![image](https://github.com/body21033/DevOps--Soft-Serve/blob/main/Lab_01/img/2.jpg?raw=true)
 
-2. Следует изменить код в файле Vagrantfile на следующий:
+2. Следует изменить код в файле `Vagrantfile` на следующий:
           
     ## [`Vagrantfile`][4]
    - Это можно сделать при помощи Notepad++
  ![image](https://github.com/body21033/DevOps--Soft-Serve/blob/main/Lab_01/img/12.jpg?raw=true)  
      
-4. 
+3. Визуальный пример кода `Vagrantfile`: 
+ ![image](https://github.com/body21033/DevOps--Soft-Serve/blob/main/Lab_01/img/13.jpg?raw=true)
+
+4. Выполняем команду `vagrant up`:
+ ![image](https://github.com/body21033/DevOps--Soft-Serve/blob/main/Lab_01/img/4.jpg?raw=true)
+ 
+5. Выполняем команду `vagrant ssh` и подключаемся к нашей виртуальной машине:
+ ![image](https://github.com/body21033/DevOps--Soft-Serve/blob/main/Lab_01/img/5.jpg?raw=true)
 
 ## Useful Links:
 
