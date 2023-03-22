@@ -11,6 +11,13 @@
 ## Preparation:
  - First you need to download [`VirtualBox`][1];
  - Second you should to install [`Vagrant`][2] with terminal;
+ ___
+ Some useful commands:
+ - `sudo usermod -aG docker $USER`
+ - `sudo usermod -aG sudo sammy` -- add permissions for user-sammy
+ - `sudo useradd -m new-user` -- add new user with home-dir
+ - `sudo pgrep -u old-user` -- stop all procceses from old-user
+ - `sudo userdel -f old-user` -- remove user
   
 ## My results:
 
@@ -20,12 +27,16 @@
 
 ![image](https://github.com/body21033/DevOps--Soft-Serve/blob/main/Lab_01/img/10.jpg?raw=true)
 
+###
+
 2. Запустим команды:
      - `vagrant box add centos/7` и выберем вариант 3 (VirtualBox);
      - `vagrant init centos/7`;
      - `vagrant up`:
 
 ![image](https://github.com/body21033/DevOps--Soft-Serve/blob/main/Lab_01/img/11.jpg?raw=true)
+
+###
 
 3. В результате у нас запустилась виртуальна машина с образом `centos/7`.
 
@@ -45,16 +56,24 @@
    - Это можно сделать при помощи Notepad++
  ![image](https://github.com/body21033/DevOps--Soft-Serve/blob/main/Lab_01/img/12.jpg?raw=true)  
      
-3. Визуальный пример кода `Vagrantfile`: 
+3. Визуальный пример кода [`Vagrantfile`][4]: 
+
  ![image](https://github.com/body21033/DevOps--Soft-Serve/blob/main/Lab_01/img/13.jpg?raw=true)
 
+###
+
 4. Выполняем команду `vagrant up`:
+
  ![image](https://github.com/body21033/DevOps--Soft-Serve/blob/main/Lab_01/img/4.jpg?raw=true)
+ 
+ ###
  
 5. Выполняем команду `vagrant ssh` и подключаемся к нашей виртуальной машине:
  ![image](https://github.com/body21033/DevOps--Soft-Serve/blob/main/Lab_01/img/5.jpg?raw=true)
  
 6. ### Как мы видим: виртуальная машина успешно настроена)
+
+###
 
 ## Useful Links:
 
